@@ -16,5 +16,5 @@ class Constants {
 
     final static String AUTHOR = "Wojciech Prusik";
 
-    final static String IDIOT_VULNERABILITY_WARNING = "Not that program is not idiot safe";
+    final static String IDIOT_VULNERABILITY_WARNING = "Note that program is not idiot safe";
 }

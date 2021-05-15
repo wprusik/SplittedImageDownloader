@@ -30,7 +30,7 @@ class ImageDownloader {
     void downloadImages(String targetDirectory) throws IOException, InterruptedException {
         System.out.println("bzzzzzzzzz");
         long downloadTime = downloadFiles(targetDirectory);
-        System.out.println("Files downloaded in " + downloadTime + " ms (it's Java, the next execution will give a different time ofc)");
+        System.out.println("Files downloaded in " + downloadTime + " ms");
         mergeFiles(targetDirectory);
     }
 
